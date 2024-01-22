@@ -1,0 +1,12 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.font-start{
+    font-family: 'Roboto', sans-serif;
+}
+.font-start2 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    color: rgba(10, 10, 10, 0.929);
+}

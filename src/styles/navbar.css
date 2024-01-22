@@ -1,0 +1,18 @@
+.navbar-toggler{
+    background-color: #dfe3db;
+}
+    
+.navbar .navbar-toggler:focus {
+        color: #00000000;
+} 
+.text-font{
+    font-family: 'DM Sans', sans-serif;
+}
+ .nav-shadow{
+    box-shadow: 2px 0 4px rgba(9, 9, 9, 0.822);
+}
+.font-brand {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+
+}
