@@ -8,6 +8,7 @@ import ProductsPage from './pages/ProductsPage';
 import DashboardPage from './pages/DashboardPage';
 import AboutusPage from './pages/AboutusPage';
 import NotFoundPage from './pages/NotFoundPage';
+import Footer from './components/Footer';
 function App() {
   return (
     <> 
@@ -21,6 +22,7 @@ function App() {
          <Route path='/aboutus' element={<AboutusPage/>}/>
          <Route path='*' element={<NotFoundPage/>}/>
       </Routes>
+      <Footer/>
    </BrowserRouter>
     </>
   );

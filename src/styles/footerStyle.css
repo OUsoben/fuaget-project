@@ -1,0 +1,12 @@
+.bg-footer{
+    background-image: url("https://t4.ftcdn.net/jpg/05/24/11/03/360_F_524110378_p1y3CceHX7CrRfEoBfH8IF7Vw16qo7Bh.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.des-font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;  
+}
