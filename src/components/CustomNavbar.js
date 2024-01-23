@@ -11,7 +11,7 @@ function BasicExample() {
         <Navbar.Brand 
          variant="h1"
           gutterBottom
-          className='ms-2 me-4 col-md -2 col-sm-3 col-8   font-brand fs-5 text-white' href="/">F A U G E T</Navbar.Brand>
+          className='ms-2 me-4 col-md -2 col-sm-3 col-8   font-brand fs-5 text-white' href="/">F U A G E T</Navbar.Brand>
     </div>
     <Navbar.Collapse id="basic-navbar-nav text-white" color='white'>
           <Nav className="ms-auto p-2 me-5 ">

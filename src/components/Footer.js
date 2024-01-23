@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="col-xl-4 row des-font">
             <img
               className="img-fluid "
-              style={{ width: "100px" }}
+              style={{ width: "30%" }}
               src={require("../images/img-1.png")}
               alt="image logo"
             />
@@ -70,7 +70,7 @@ const Footer = () => {
             style={{ fontWeight: "bolder", whiteSpace: "pre" }}
             className=" text-weight-bold text-warning ">
             {" "}
-            F A U G E T
+            F U A G E T
           </span>
         </p>
       </div>
