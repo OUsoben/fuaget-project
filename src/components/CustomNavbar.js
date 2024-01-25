@@ -15,11 +15,11 @@ function BasicExample() {
     </div>
     <Navbar.Collapse id="basic-navbar-nav text-white" color='white'>
           <Nav className="ms-auto p-2 me-5 ">
-            <NavLink className='text-white me-3 fw-bold text-font nav-link'  to={"/"}>Home</NavLink>
-            <NavLink className='text-white me-3 fw-bold text-font nav-link' to={"/services"}>Sevices</NavLink>
-            <NavLink className='text-white me-3 fw-bold text-font nav-link' to={"/products"}>Products</NavLink>
-            <NavLink className='text-white me-3 fw-bold text-font nav-link' to={"/dashboard"}>Dashboard</NavLink>
-            <NavLink className='text-white me-3 fw-bold text-font nav-link' to={"/aboutus"}>About us</NavLink>
+            <NavLink className='text-white me-3  text-font nav-link'  to={"/"}>Home</NavLink>
+            <NavLink className='text-white me-3  text-font nav-link' to={"/services"}>Sevices</NavLink>
+            <NavLink className='text-white me-3  text-font nav-link' to={"/products"}>Products</NavLink>
+            <NavLink className='text-white me-3  text-font nav-link' to={"/dashboard"}>Dashboard</NavLink>
+            <NavLink className='text-white me-3  text-font nav-link' to={"/aboutus"}>About us</NavLink>
           </Nav> 
         </Navbar.Collapse>
     

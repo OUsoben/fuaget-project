@@ -11,7 +11,7 @@ const HomePage = () => {
                 <p style={{whiteSpace: "pre"}} className='text-danger fw-bolder font-start'>N e w   P l a t f o r m</p>
                 <h1 className='font-start2 '>Partner For <br /> Your Future</h1>
                 <p className='text-muted pt-4'>Whether you're a online shopper or a first-time seller our market welcomes you. Join us on this journey of exploration connection and empowerment.</p>
-                <button className='btn btn-warning mt-4'>Get Start  <span><FontAwesomeIcon icon={faArrowRight} /></span></button>
+                <button className='btn btn-warning mt-4'>More <span><FontAwesomeIcon icon={faArrowRight} /></span></button>
                </section>
                <div className="col-xl-7 ">
                 <img className='img-fluid' src="https://img.freepik.com/premium-vector/people-man-woman-characters-planning-counting-money-income-budget_133260-1101.jpg?size=626&ext=jpg" alt="" />

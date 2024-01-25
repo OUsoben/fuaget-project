@@ -1,21 +1,20 @@
-.bg-footer{
-    background-image: url("https://usuploads.s3.amazonaws.com/itlearn360/uploads/2018/09/Footer-Background-Image.png");
+.service-items{
+ background-image: url("https://d14ty28lkqz1hw.cloudfront.net/data/org/25970/theme/43399/img/home-banner.jpg");
     background-repeat:no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size: cover;
     background-position:center;
-   
 }
+
 *{
     font-family: 'Poppins', sans-serif;
+
+ 
 }
-.des-font {
-    font-family: 'Montserrat', sans-serif;
-    font-size: small;  
-}
-.allrights{
+.service-font{
+  
+    font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: small;
 }
