@@ -4,7 +4,7 @@ import "../styles/navbar.css";
 import { NavLink } from 'react-router-dom';
 function BasicExample() {
   return (
-    <Navbar expand="lg" className=" ps-4 bg-dark nav-shadow sticky-top">
+    <Navbar expand="lg" className=" ps-4 navbar-bgcolor nav-shadow sticky-top">
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
        <div className="ms-3">
         <img style={{width:"40px"}} className='img-fluid mb-2' src={require("../images/img-1.png")} alt="" />

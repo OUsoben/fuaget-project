@@ -18,3 +18,10 @@
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
 }
+hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #ff0000;  /* old IE */
+    background-color: #ea0303;  /* Modern Browsers */
+  }

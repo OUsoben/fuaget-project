@@ -6,7 +6,10 @@ import { faLocationDot, faMailBulk, faPhone } from "@fortawesome/free-solid-svg-
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 const Footer = () => {
   return (
-    <div className="">
+    <div className=" ">
+      <div className="text-center img-fluid">
+      <img   className="object-picture img-fluid " src="https://www.fakhruddintrading.com/wp-content/uploads/2015/09/footer.png" alt="" />
+      </div>
     <div className="bg-footer ">
       <section className="container">
         <div className="p-3 pt-5 row me-1 text-white ">

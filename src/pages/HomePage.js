@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/homeStyle.css"
-import { faArrowRight, faBookmark, faCircleCheck, faMagnifyingGlass, faMagnifyingGlassPlus,   } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faBookmark, faCircleCheck,    } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const HomePage = () => {
   return (
