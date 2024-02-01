@@ -6,6 +6,7 @@
     -o-background-size:cover;
     background-size: cover;
     background-position:center;
+ 
 }
 
 *{
@@ -18,10 +19,12 @@
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
 }
-hr {
-    border: none;
-    height: 3px;
-    /* Set the hr color */
-    color: #ff0000;  /* old IE */
-    background-color: #ea0303;  /* Modern Browsers */
-  }
+.box-font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;  
+}
+/* .border-services {
+ border-radius: 0% 100% 3% 97% / 100% 100% 0% 0%  ;
+
+background-color: yellow;
+} */
