@@ -28,3 +28,7 @@
 
 background-color: yellow;
 } */
+
+.cta-button span:hover {
+        padding-left: 10px;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/serviceStyle.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck, faCircle } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faCheck, faCircle } from "@fortawesome/free-solid-svg-icons";
 const ServicesPage = () => {
   return (
     <>
@@ -89,7 +89,7 @@ const ServicesPage = () => {
             </div>
           </div>
         </section>
-        <section className="container mt-5 ">
+        {/* <section className="container mt-5 ">
           <div className="row justify-content-center gap-4 ">
             <div className="text-center ">
               <h4 className="fw-bold">Featured On</h4>
@@ -146,81 +146,93 @@ const ServicesPage = () => {
                 className="img-fluid my-2"
               />
             </div>
+
           </div>
-        </section>
+          <hr />
+        </section> */}
         <div className="mt-5  ">
           <div className="">
-            <div className="text-center">
-              <h3 className="fw-bold mt-5">services</h3>
-            </div>
             <div className="me-3 ms-3 bg- ">
               <div className="row d-flex  gap-xl-5  gap-2 mt-5 justify-content-center  box-font  ">
                 <div
             
-                  className="border rounded bg-light    col-xl-3"
+                  className="border rounded bg-light col-xl-3"
                 >
                   <img
-                    className="border-services  img-fluid col-xl-4 col-3 col-md-2 ms-3"
-                    src="https://cdn-icons-png.flaticon.com/512/4129/4129528.png"
-                    alt=""
+                    className="border-services  img-fluid col-xl-3 col-2 col-md-1 "
+                    src="https://static.vecteezy.com/system/resources/previews/014/628/611/non_2x/red-basic-shape-for-new-product-stickers-special-offer-label-png.png"
                   />
-                  <p className="ps-4 pe-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus est eligendi tenetur molestias exercitationem repudiandae quidem cum ullam. Nostrum necessitatibus ad cupiditate minima, itaque earum quia modi asperiores esse!</p>
+                  <div className="px-3"> 
+                  <p className="fw-bold fs-6">Quick post products</p>
+                   <p className="">Embrace the joy of discovery and enhance every aspect of your life with these incredible products. Whether you're a tech enthusiast, fashionista, or someone who appreciates a cozy home, there's something for everyone in the world of products! 🌟🛒 #DiscoverInnovation #ShopSmart #ProductLove</p>
+                   </div>
+                
                 </div>
                 <div
           
-                  className="border rounded d- col-xl-3  "
+                  className="border rounded d- col-xl-3  bg-light"
                 >
                   <img
-                    className="img-fluid col-xl-4 col-md-2 col-3 ms-3"
-                    src="https://cdn-icons-png.flaticon.com/512/4129/4129528.png"
+                    className="img-fluid col-xl-4 col-md-1 col-2"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjjbCv0pDACEdmOYOOdJKEyMFAe0jxm-IKcLE5a3kRjIJumOUtBr6njTAivOylwEwTAY0&usqp=CAU"
                     alt=""
                   />
-                  <p className="ps-4 pe-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ratione vel distinctio nobis molestiae reiciendis, repudiandae illo eius sint iusto unde hic temporibus qui nesciunt corporis enim. Dignissimos, ullam nulla.</p>
+                 <div className="px-3"> 
+                  <p className="fw-bold fs-6">Shipping and Delivery</p>
+                   <p className="">Set up a reliable shipping and delivery system. Clearly communicate shipping costs, delivery times, and tracking options to customers. Consider offering multiple shipping options to cater to different needs</p>
+                   </div>
+                
+          
                 </div>
                 <div
 
-                  className="border rounded  col-xl-3 "
+                  className="border rounded  col-xl-3 bg-light"
                 >
                   <img
-                    className="img-fluid col-xl-4 col-3 col-md-2 ms-3"
-                    src="https://cdn-icons-png.flaticon.com/512/4129/4129528.png"
+                    className="img-fluid col-xl-3 col-2 col-md-1 ms-2"
+                    src="https://cdn-icons-png.flaticon.com/512/9582/9582680.png"
                     alt=""
                   />
-                  <p className="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptas, maiores omnis ut totam necessitatibus earum saepe accusantium corrupti. Suscipit quam, vel a facere mollitia voluptatem enim dolor veritatis natus?</p>
+                  <div className="px-3">
+                   <p className="fw-bold fs-6">Sefety First</p>
+                   <p className="">Increasing awareness among consumers and businesses about the importance of safety has driven the demand for safety </p>
+                   </div>
                 </div>
                 <div
                
-                  className="border rounded  col-xl-3 "
+                  className="border rounded  col-xl-3 bg-light"
                 >
                   <img
-                    className="img-fluid col-xl-4 col-3 col-md-2 ms-3"
-                    src="https://cdn-icons-png.flaticon.com/512/4129/4129528.png"
+                    className="img-fluid col-xl-3 col-2 col-md-1 ms-3 mt-2"
+                    src="https://cdn-icons-png.flaticon.com/512/2169/2169694.png"
                     alt=""
                   />
-                  <p className="px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus est eligendi tenetur molestias exercitationem repudiandae quidem cum ullam. Nostrum necessitatibus ad cupiditate minima, itaque earum quia modi asperiores esse!</p>
+                  <div className="px-3">
+                   <p className="fw-bold fs-6">Quick products matching</p>
+                   <p className="">Feel free to mix and match these suggestions based on your personal preferences or let us know if you have a specific category in mind for more targeted recommendations! </p>
+                   </div>
                 </div>
                 <div
                  
-                  className="border rounded   col-xl-3 "
+                  className="border rounded   col-xl-3 bg-light"
                 >
                   <img
-                    className="img-fluid col-xl-4 col-3 col-md-2 ms-3"
-                    src="https://cdn-icons-png.flaticon.com/512/4129/4129528.png"
+                    className="img-fluid col-xl-3 mt-1 col-2 col-md-1 ms-3"
+                    src="https://cdn-icons-png.flaticon.com/512/3225/3225232.png"
                     alt=""
                   />
-                  <p className="px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus est eligendi tenetur molestias exercitationem repudiandae quidem cum ullam. Nostrum necessitatibus ad cupiditate minima, itaque earum quia modi asperiores esse!</p>
+                  <div className="px-3">
+                   <p className="fw-bold fs-6">Create & Export your product for free.</p>
+                   <p className="">Develop a marketing strategy to promote your product internationally. Utilize online platforms, social media, and other marketing channels to reach your target audience. </p>
+                   </div>  
                 </div>
                 <div
              
-                  className="border rounded   col-xl-3 "
+                  className=" cta-button  col-xl-3 align-items-center d-flex"
                 >
-                  <img
-                    className="img-fluid col-xl-4 col-3 col-md-2 ms-3"
-                    src="https://cdn-icons-png.flaticon.com/512/4129/4129528.png"
-                    alt=""
-                  />
-                  <p className="px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus est eligendi tenetur molestias exercitationem repudiandae quidem cum ullam. Nostrum necessitatibus ad cupiditate minima, itaque earum quia modi asperiores esse!</p>
+                 <a href="#"className="ms-3" >Browse our services now<span> <FontAwesomeIcon icon={faArrowRight} /></span></a>
                 </div>
+                  
               </div>
             </div>
           </div>
