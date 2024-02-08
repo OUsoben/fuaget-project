@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/fuaget-project/static/css/main.06de3f28.css",
-    "main.js": "/fuaget-project/static/js/main.8d44af64.js",
+    "main.css": "/fuaget-project/static/css/main.5000e481.css",
+    "main.js": "/fuaget-project/static/js/main.0eb6d95e.js",
     "static/media/img-1.png": "/fuaget-project/static/media/img-1.ff9869e655b9ba2bc6ec.png",
     "index.html": "/fuaget-project/index.html",
-    "main.06de3f28.css.map": "/fuaget-project/static/css/main.06de3f28.css.map",
-    "main.8d44af64.js.map": "/fuaget-project/static/js/main.8d44af64.js.map"
+    "main.5000e481.css.map": "/fuaget-project/static/css/main.5000e481.css.map",
+    "main.0eb6d95e.js.map": "/fuaget-project/static/js/main.0eb6d95e.js.map"
   },
   "entrypoints": [
-    "static/css/main.06de3f28.css",
-    "static/js/main.8d44af64.js"
+    "static/css/main.5000e481.css",
+    "static/js/main.0eb6d95e.js"
   ]
 }
