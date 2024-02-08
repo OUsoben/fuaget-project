@@ -161,7 +161,7 @@ const ServicesPage = () => {
                   <img
                     className="border-services  img-fluid col-xl-3 col-2 col-md-1 "
                     src="https://static.vecteezy.com/system/resources/previews/014/628/611/non_2x/red-basic-shape-for-new-product-stickers-special-offer-label-png.png"
-                  />
+                />
                   <div className="px-3"> 
                   <p className="fw-bold fs-6">Quick post products</p>
                    <p className="">Embrace the joy of discovery and enhance every aspect of your life with these incredible products. Whether you're a tech enthusiast, fashionista, or someone who appreciates a cozy home, there's something for everyone in the world of products! 🌟🛒 #DiscoverInnovation #ShopSmart #ProductLove</p>

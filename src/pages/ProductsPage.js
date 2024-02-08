@@ -18,21 +18,19 @@ const ProductsPage = () => {
       });
   }, []);
 
-
   return (
     <>
-     <div className="ms-5 container"> 
-       <div className="gap-3 row col-12 ">
-      {  
-      products.map((product) => {
-        return (
-         
-               <ProductCard productData={product}/>
-          
-        
-        );
-      })}  </div>
+      <div className=" mt-5 container-xxl ">
+        <div className=" row gap-xl-4 gap-3 ms-lg-5">
+          {products.map((product) => {
+            return (
+              <div className="col-xl-2 ms-xl-4 col-lg-2 me-xl-4 me-lg-5  col-lg-1  col-md-4 col-sm-4 me-sm-2 ms-5 col-5 ">
+                <ProductCard productData={product} />
+              </div>
+            );
+          })}{" "}
         </div>
+      </div>
     </>
   );
 };
